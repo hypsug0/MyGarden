@@ -1,14 +1,15 @@
 """Models"""
 
+from django.conf import settings
 from django.contrib.gis.db import models
 from django.utils.translation import gettext_lazy as _
+
 from plantinfos.models import (
     HardinessZone,
     OperationsList,
-    Plants,
     PlantOperations,
+    Plants,
 )
-from django.conf import settings
 
 # Create your models here.
 
